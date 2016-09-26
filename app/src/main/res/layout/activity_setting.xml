@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/include_home_actionbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/tv_setting_style"
+            android:text="开机启动"/>
+        <ToggleButton
+            android:id="@+id/tbtn01_setting_notify_action"
+            style="@style/tbtn_setting_style"
+            android:checked="false"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/tv_setting_style"
+            android:text="通知图标"/>
+        <ToggleButton
+            android:id="@+id/tbtn02_setting_notify_action"
+            style="@style/tbtn_setting_style"
+            android:checked="false"/>
+    </RelativeLayout>
+
+    <TextView
+        style="@style/tv_setting_style"
+        android:text="关于我们"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_arrows_right"
+         />
+
+    <TextView
+        style="@style/tv_setting_style"
+        android:layout_width="match_parent"
+        android:drawableRight="@drawable/ic_arrows_right"
+        android:text="帮助我们"/>
+
+
+</LinearLayout>

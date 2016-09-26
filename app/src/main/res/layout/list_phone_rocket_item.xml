@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    >
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cb_phone_rocket" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/img_phone_rocket_icon"
+        android:background="@mipmap/ic_launcher"/>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/tv_phone_rocket_TaskName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AzS"/>
+        <TextView
+            android:id="@+id/tv_phone_rocket_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="10M"
+            android:textSize="10sp"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_phone_rocket_progressName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="10"
+        android:gravity="right"
+        android:text="用户进程"/>
+
+</LinearLayout>

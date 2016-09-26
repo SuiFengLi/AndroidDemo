@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AzSecuer</string>
+    <string name="title">手机管家</string>
+    <string name="phoneRkt">手机加速</string>
+    <string name="softMgr">软件管理</string>
+    <string name="phoneMgr">手机检测</string>
+    <string name="telMgr">通讯大全</string>
+    <string name="fileMgr">文件管理</string>
+    <string name="sdClean">垃圾清理</string>
+    <string name="setting">设置</string>
+    <string name="sdCleanText">缓存垃圾</string>
+    <string name="deleteChecked">删除所选文件</string>
+    <string name="aKeyClean">一键清理</string>
+    <string name="showSystem">显示系统进程</string>
+    <string name="builtSpace">内置空间(已使用/全部)</string>
+    <string name="externalSpace">外置空间(已使用/全部)</string>
+    <string name="text_soft_manager_title">手机空间分配情况</string>
+    <string name="text_soft_manager_built">内置空间</string>
+    <string name="text_soft_manager_external">外置空间</string>
+    <string name="file_number">文件数量:</string>
+    <string name="file_user_space">占用空间:</string>
+</resources>
